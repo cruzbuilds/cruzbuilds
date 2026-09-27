@@ -1,6 +1,6 @@
 ## Chris Cruz
 
-I design systems for a living and I got tired of stopping at the diagram. So I am learning to build, ship, and operate the things I design, in public, one small project at a time.
+I design systems for a living and I hate stopping at the diagram. So I build, ship, and operate the things I design, in public, one small project at a time.
 
 Everything here is a personal project. No work material, no customer material, nothing behind a login.
 
