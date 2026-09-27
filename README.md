@@ -4,9 +4,17 @@ I design systems for a living and I hate stopping at the diagram. So I build, sh
 
 Everything here is a personal project. No work material, no customer material, nothing behind a login.
 
-### Built and shipped
+### Shipped
+
+Live on real infrastructure, open to anyone.
 
 **[Legwork](https://dq8b25qx96wy3.cloudfront.net/)** is a three agent research team, live and open to anyone. Ask a technical question and it plans the research, reads GitHub and the open web, and writes a short report where every claim links to its source. It runs on Amazon Bedrock AgentCore with Strands Agents, as a fixed graph of agents rather than an open ended orchestrator, under a hard spend ceiling and per visitor rate limits. The examples on the page point it at security research, such as which vulnerabilities are being actively exploited right now.
+
+**[Try it here](https://dq8b25qx96wy3.cloudfront.net/)**
+
+### Built
+
+Working and tested, not running as a live service.
 
 **Holmes** is an AI security investigator. Hand it an incident and it forms a hypothesis, decides which lookups could change its verdict (indicator reputation, asset context, ATT&CK technique mapping, served read only by a local MCP server), and stops once the answer is clear. It returns a verdict, the evidence in order, and a proposed response, in plain English a manager can read. It treats the incident as untrusted evidence and flags any text inside it that tries to give instructions. It proposes and never executes. Strands Agents and Claude on Amazon Bedrock, running on synthetic data. A local proof of concept, not public yet.
 
