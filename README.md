@@ -6,7 +6,7 @@ Everything here is a personal project. No work material, no customer material, n
 
 ### What I am building
 
-Leg work - Ask a technical question. Legwork plans the research, reads GitHub and the open web, and writes you a report where every claim links to its source.
+Leg work - (https://dq8b25qx96wy3.cloudfront.net/) Ask a technical question. Legwork levergaes three agents that plan, research, and read GitHub the open web, and writes you a report where every claim links to its source.
 
 **[shelflife](https://github.com/cruzbuilds/shelflife)** is one inventory of everything that expires: TLS certificates, domains, API keys, licenses, contracts. It checks what it can check live, reports what is coming due with an owner next to each item, and its exit code is the alert, so a cron job or a CI step is the whole integration. It never renews anything and never stores the secret itself. Names and dates only.
 
